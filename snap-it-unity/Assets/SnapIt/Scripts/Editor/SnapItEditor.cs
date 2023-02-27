@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using SnapIt.Scripts.Enums;
 using UnityEditor;
 using UnityEditor.UIElements;
