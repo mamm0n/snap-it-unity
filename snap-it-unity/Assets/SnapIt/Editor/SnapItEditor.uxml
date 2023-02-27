@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SnapIt/Editor/SnapItEditor.uss?fileID=7433441132597879392&amp;guid=9942fbc2a1c7849b18cc6950902e45d8&amp;type=3#SnapItEditor" />
+    <ui:GroupBox style="-unity-font-style: normal; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(210, 210, 210); border-right-color: rgb(210, 210, 210); border-top-color: rgb(210, 210, 210); border-bottom-color: rgb(210, 210, 210);">
+        <ui:Label text="SNAP IT" display-tooltip-when-elided="true" style="font-size: 16px; -unity-font-style: bold; -unity-text-outline-width: 0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.51); white-space: nowrap; -unity-text-align: middle-left; height: 27px; overflow: visible; visibility: visible; opacity: 1; border-bottom-width: 2px; border-left-color: rgb(210, 210, 210); border-right-color: rgb(210, 210, 210); border-top-color: rgb(210, 210, 210); border-bottom-color: rgb(210, 210, 210); border-left-width: 0; border-right-width: 0; border-top-width: 0; margin-bottom: 5px;" />
+        <uie:EnumField label="Snap Direction" type="SnapIt.Scripts.Enums.RayDirection, SnapIt" name="SnapDirection" value="Down" style="height: 19px; margin-bottom: 5px;" />
+        <uie:LayerMaskField label="Snap Layers" name="SnapLayers" style="margin-bottom: 5px;" />
+        <ui:Button text="Snap" display-tooltip-when-elided="true" name="SnapButton" style="flex-wrap: nowrap; flex-direction: column; flex-shrink: 0;" />
+    </ui:GroupBox>
+</ui:UXML>
